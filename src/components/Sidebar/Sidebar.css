@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  cursor: pointer;
+  justify-content: space-between;
+}
+.sidebar_top {
+  display: flex;
+  flex: 0.2;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.sidebar_bottom {
+  display: flex;
+  flex: 0.8;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
